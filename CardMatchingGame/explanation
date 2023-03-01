@@ -15,8 +15,10 @@ CARD MATHCING GAME
       If these two choice are the same number, the turn is not going to change unless these choices differ.
       
     * The sequence of the computer consists of 3 stages, 
-      The first stage checks the computer memory, if there are two locations of the same numbers in the memory and these locations are different, the computer matches them directly. If this situation does not occur, it is passed to the 2nd stage.
-      In the second stage, the computer opens a card from the table, then searches for the match of the number on that card in its memory, if it finds it, it matches the cards. if the number is not in the memory, the third stage takes place.
+      The first stage checks the computer memory, if there are two locations of the same numbers in the memory and these locations are different, the 
+      computer matches them directly. If this situation does not occur, it is passed to the 2nd stage.
+      In the second stage, the computer opens a card from the table, then searches for the match of the number on that card in its memory, if it finds 
+      it, it matches the cards. if the number is not in the memory, the third stage takes place.
       In the 3rd stage, another card is opened from the table for the card that can not be found in the memory in the second stage.
     * This cycle continues until one side wins the game.
    
